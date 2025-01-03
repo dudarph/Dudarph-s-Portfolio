@@ -1,0 +1,531 @@
+@media screen and (max-width: 1431px) {
+
+	/* Header */
+	.nav {
+		display: none;
+	}
+
+	.additional {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+}
+
+
+/* From design, tablet */
+@media screen and (max-width: 1201px) {
+
+	/* Base */
+	.wrapper {
+		max-width: 1104px;
+	}
+
+	.wrapper-second {
+		max-width: 976px;
+	}
+
+	.wrapper-third {
+		max-width: 976px;
+	}
+
+	/* Header */
+	.header {
+		margin-bottom: 186px;
+	}
+
+
+	/* Hero */
+	.hero {
+		margin-bottom: 186px;
+	}
+
+	.hero__message {
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	.hero__title {
+		font-size: 4.8rem;
+		line-height: 132px;
+	}
+
+	.hero__subtitle {
+		max-width: 100%;
+		margin: 0 auto 80px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.hero__link {
+		max-width: 243px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.hero__link img {
+		width: 24px;
+		height: 24px;
+	}
+
+	/* Experience section */
+	.experience {
+		margin-bottom: 186px;
+	}
+
+	.experience__title {
+		font-size: 3.4rem;
+		line-height: 100px;
+	}
+
+	.experience__subtitle {
+		margin-bottom: 80px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.skills {
+		gap: 32px;
+	}
+
+	.skill__img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.skill__name {
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	/* Pets section */
+	.pets__title {
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	.pets__subtitle {
+		max-width: 808px;
+		margin: 0 auto 96px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.design {
+		margin-bottom: 176px;
+	}
+
+	.design__title {
+		margin-bottom: 80px;
+
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	.bg-color--gray {
+		margin-bottom: 160px;
+		height: 665px;
+	}
+
+	.bg-color--orange {
+		height: 665px;
+		margin-bottom: 160px;
+	}
+
+	.bg-color--blue {
+		height: 665px;
+		margin-bottom: 160px;
+	}
+
+	.instance {
+		gap: 40px;
+	}
+
+	.instance__text {
+		max-width: 463px;
+		margin-top: 189px;
+	}
+
+	.instance__name {
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.instance__desc {
+		margin-bottom: 80px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.instance__link {
+		max-width: 206px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.instance__img {
+		margin-top: 80px;
+		width: 567px;
+		height: 665px;
+	}
+
+	.frontend {
+		margin-bottom: 266px;
+	}
+
+	.frontend__title {
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	/* Tools section */
+	.tools {
+		margin-bottom: 186px;
+	}
+
+	.buttons {
+		margin-bottom: 72px;
+	}
+
+	.tools__buttons-bg {
+		max-width: 285px;
+	}
+
+	.tools__btn {
+		padding: 16px 32px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.btn-frontend p::before {
+		content: 'Верстка';
+	}
+
+	.btn-design p::before {
+		content: 'Дизайн';
+	}
+
+	.tools__cards {
+		flex-wrap: wrap;
+	}
+
+	.tools__cards-column {
+		flex-direction: column;
+	}
+
+	.tools__card {
+		padding: 16px;
+		width: 232px;
+	}
+
+	.tools__card-img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.tools__card-name {
+		font-size: 0.8rem;
+		line-height: 24px;
+	}
+
+	/* Tools section */
+	.services {
+		margin-bottom: 186px;
+	}
+
+	.services__title {
+		margin-bottom: 80px;
+
+		font-size: 3.4rem;
+		line-height: 100px;
+	}
+
+	.services__list {
+		gap: 80px;
+	}
+
+	.service-name {
+		font-size: 1.2rem;
+		line-height: 32px;
+	}
+
+	.service-desc {
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	/* FAQ section */
+	.faq {
+		padding: 96px 0;
+		margin-bottom: 186px;
+	}
+
+	.faq__title {
+		margin-bottom: 80px;
+
+		font-size: 3.4rem;
+		line-height: 100px;
+	}
+
+	.faq__items {
+		gap: 80px;
+	}
+
+	.details {
+		max-width: 944px;
+	}
+
+	.summary {
+		font-size: 1.2rem;
+		line-height: 32px;
+	}
+
+	.summary__img {
+		width: 16px;
+		height: 16px;
+	}
+
+	.details__answer {
+		padding-left: 34px;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	/* CTA section */
+	.cta {
+		margin-bottom: 186px;
+		padding: 104px 0;
+	}
+
+	.cta__title {
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	/* Contacts section */
+	.contacts {
+		margin-bottom: 186px;
+	}
+
+	.contacts__title {
+		max-width: 100%;
+
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.contacts__subtitle {
+		max-width: 100%;
+
+		font-size: 0.8rem;
+		line-height: 26px;
+	}
+
+	.contacts__links {
+		max-width: 100%;
+	}
+
+	.contacts__link {
+		font-size: 0.8rem;
+		line-height: 24px;
+	}
+
+	/* Footer */
+	.footer__content {
+		flex-direction: column-reverse;
+		gap: 32px;
+	}
+
+	.footer__rights {
+		text-align: center;
+	}
+}
+
+/* From design, phone */
+@media screen and (max-width: 603px) {
+
+	/* Base */
+	.wrapper {
+		max-width: 504px;
+	}
+
+	.wrapper-second {
+		max-width: 504px;
+	}
+
+	.wrapper-third {
+		max-width: 504px;
+	}
+
+	/* Header */
+	.header {
+		margin-bottom: 96px;
+	}
+
+	/* Hero section */
+	.hero {
+		margin-bottom: 96px;
+	}
+
+	.hero__message {
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.hero__title {
+		font-size: 2.6rem;
+		line-height: 69px;
+	}
+
+	.hero__subtitle {
+		margin: 0 auto 64px;
+	}
+
+	.hero__link {
+		max-width: 100%;
+		padding: 24px 32px;
+	}
+
+	/* Experience section */
+	.experience {
+		margin-bottom: 96px;
+	}
+
+	.experience__title {
+		font-size: 2rem;
+		line-height: 56px;
+	}
+
+	.experience__subtitle {
+		margin-bottom: 64px;
+	}
+
+	.skills {
+		display: none;
+	}
+
+	.skills--mobile {
+		display: flex;
+	}
+
+	/* Pets section */
+	.pets__title {
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.pets__subtitle {
+		max-width: 472px;
+		margin: 0 auto 80px;
+	}
+
+	.design {
+		margin-bottom: 80px;
+	}
+
+	.design__title {
+		margin-bottom: 72px;
+
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.bg-color--orange {
+		height: 737px;
+		margin-bottom: 72px;
+	}
+
+	.bg-color--gray {
+		height: 737px;
+		margin-bottom: 72px;
+	}
+
+	.bg-color--blue {
+		height: 737px;
+		margin-bottom: 72px;
+	}
+
+	.instance {
+		flex-direction: column-reverse;
+		gap: 64px;
+		align-items: center;
+	}
+
+	.instance__img {
+		margin-top: 64px;
+		width: 280px;
+		height: 280px;
+	}
+
+	.instance__text {
+		margin-top: 0;
+		align-items: center;
+		max-width: 100%;
+	}
+
+	.instance__name {
+		font-size: 1.3rem;
+		line-height: 40px;
+	}
+
+	.instance__desc {
+		margin-bottom: 64px;
+		max-width: 432px;
+		text-align: center;
+	}
+
+	.instance__link {
+		padding: 24px 32px;
+	}
+
+	.frontend {
+		margin-bottom: 96px;
+	}
+
+	.frontend__title {
+		margin-bottom: 72px;
+
+		font-size: 2.4rem;
+		line-height: 72px;
+	}
+
+	/* Tools section */
+	.tools {
+		margin-bottom: 96px;
+	}
+
+	.tools__buttons-bg {
+		max-width: 100%;
+	}
+
+	.tools__btn {
+		padding: 24px;
+		width: 50%;
+	}
+
+	.btn-frontend p::before {
+		content: url('/public/svg/tools-code-inactive.svg');
+	}
+
+	.btn-design p::before {
+		content: url('/public/svg/tools-design-inactive.svg');
+	}
+
+	.tools__btn--active.btn-frontend p::before {
+		content: url('/public/svg/tools-code-active.svg');
+	}
+
+	.tools__btn--active.btn-design p::before {
+		/* content: url('/public/svg/html.svg'); Трабл с svg*/
+	}
+}
