@@ -457,9 +457,8 @@ img {
 }
 
 .skills--mobile {
-  display: none;
   max-width: 472px;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 48px;
   align-items: center;
