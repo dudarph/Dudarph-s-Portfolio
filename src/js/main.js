@@ -48,6 +48,7 @@ const closeModalMenu = function () {
 
 buttonOpenModalMenu.addEventListener("click", openModalMenu);
 buttonCloseModalMenu.addEventListener("click", closeModalMenu);
+
 document.addEventListener("keydown", function (e) {
 	if (e.key === "Escape" && burgerModalMenu.classList.contains("visible")) {
 		closeModalMenu();
@@ -59,13 +60,13 @@ document.addEventListener("keydown", function (e) {
 const scrollFromBurger = () => {
 	document.querySelector(".burger-menu").addEventListener("click", (event) => {
 		event.preventDefault();
-		closeModalMenu();
 
 		const target = event.target;
 		if (
 			target.classList.contains("burger-menu__link") ||
 			target.classList.contains("burger-menu__additional-link")
 		) {
+			closeModalMenu();
 			const href = target.getAttribute("href");
 			document.querySelector(href).scrollIntoView({
 				behavior: "smooth",

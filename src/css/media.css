@@ -526,6 +526,104 @@
 	}
 
 	.tools__btn--active.btn-design p::before {
-		/* content: url('/public/svg/html.svg'); Трабл с svg*/
+		content: url('/public/svg/tools-design-active.svg');
+	}
+
+	.tools__cards {
+		gap: 32px;
+	}
+
+	.tools__cards-column {
+		width: 100%;
+		gap: 32px;
+	}
+
+	.tools__card {
+		width: 100%;
+		padding: 24px;
+		flex-direction: row;
+		align-items: center;
+		gap: 16px;
+	}
+
+	.tools__card-img {
+		margin-bottom: 0;
+	}
+
+	/* Services section */
+	.services {
+		margin-bottom: 96px;
+	}
+
+	.services__title {
+		margin-bottom: 72px;
+
+		font-size: 2rem;
+		line-height: 56px;
+	}
+
+	.services__list {
+		gap: 72px;
+	}
+
+	.service-name {
+		margin-bottom: 24px;
+
+		font-size: 1.1rem;
+		line-height: 28px;
+	}
+
+	/* FAQ section */
+	.faq {
+		padding: 48px 0;
+		margin-bottom: 96px;
+	}
+
+	.faq__title {
+		margin-bottom: 72px;
+
+		font-size: 2rem;
+		line-height: 56px;
+	}
+
+	.faq__items {
+		gap: 64px;
+	}
+
+	.details {
+		max-width: 472px;
+	}
+
+	.summary {
+		font-size: 1.1rem;
+		line-height: 28px;
+	}
+
+	/* CTA section */
+	.cta {
+		padding: 72px;
+		margin-bottom: 96px;
+	}
+
+	.cta__title {
+		font-size: 1.7rem;
+		line-height: 48px;
+	}
+
+	.contacts {
+		margin-bottom: 96px;
+	}
+
+	.contacts__title {
+		font-size: 1.3rem;
+		line-height: 40px;
+	}
+
+	.contacts__links {
+		flex-direction: column;
+	}
+
+	.contacts__link {
+		width: 100%;
 	}
 }
