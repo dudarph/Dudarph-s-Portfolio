@@ -641,3 +641,16 @@
 		gap: 16px;
 	}
 }
+
+@media screen and (max-width: 376px) {
+
+	/* CTA section */
+	.cta {
+		padding: 40px;
+	}
+
+	.cta__title {
+		font-size: 1.3rem;
+		line-height: 40px;
+	}
+}
