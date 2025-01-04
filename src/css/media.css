@@ -626,4 +626,18 @@
 	.contacts__link {
 		width: 100%;
 	}
+
+	/* Burger menu */
+	.burger-menu__list {
+		gap: 48px;
+	}
+
+	.burger-menu__link {
+		font-size: 1.3rem;
+		line-height: 40px;
+	}
+
+	.burger-menu__adittional-links {
+		gap: 16px;
+	}
 }
