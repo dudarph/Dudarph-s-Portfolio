@@ -143,6 +143,11 @@
 		margin-bottom: 160px;
 	}
 
+	.bg-color--blue--2 {
+		height: 665px;
+		margin-bottom: 160px;
+	}
+
 	.instance {
 		gap: 40px;
 	}
@@ -451,6 +456,11 @@
 	}
 
 	.bg-color--blue {
+		height: 737px;
+		margin-bottom: 72px;
+	}
+
+	.bg-color--blue--2 {
 		height: 737px;
 		margin-bottom: 72px;
 	}

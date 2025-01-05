@@ -548,6 +548,14 @@ img {
   background-color: #2A2D54;
 }
 
+.bg-color--blue--2 {
+  width: 100%;
+  height: 906px;
+  margin-bottom: 256px;
+
+  background-color: #006DFE;
+}
+
 .instance {
   display: flex;
   gap: 48px;
@@ -612,6 +620,11 @@ img {
 .instance__img--3 {
   background: url('/public/savewild.webp') top;
   background-size: cover;
+}
+
+.instance__img--4 {
+  background: url('/public/odigo.webp') top;
+  background-size: cover
 }
 
 .frontend {
@@ -686,6 +699,7 @@ img {
 
 
 .tools__cards {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 48px;
@@ -696,13 +710,14 @@ img {
 }
 
 .tools__cards-column {
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 48px;
 }
 
 .tools__card {
-  width: 350px;
+  width: 100%;
   padding: 32px;
   display: flex;
   flex-direction: column;
