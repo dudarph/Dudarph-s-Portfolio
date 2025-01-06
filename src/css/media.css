@@ -506,6 +506,7 @@
 	.instance__name {
 		font-size: 1.3rem;
 		line-height: 40px;
+		text-align: center;
 	}
 
 	.instance__desc {
