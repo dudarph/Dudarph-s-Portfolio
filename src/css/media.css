@@ -685,3 +685,18 @@
 		line-height: 40px;
 	}
 }
+
+@media screen and (max-width: 360px) {
+
+	/* Contacts section */
+	.contacts__title {
+		font-size: 1.1rem;
+		line-height: 35px;
+	}
+
+	/* Footer */
+	.footer__rights p {
+		font-size: 0.8rem;
+		line-height: 25px;
+	}
+}
