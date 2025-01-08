@@ -148,11 +148,6 @@
 		margin-bottom: 160px;
 	}
 
-	.bg-color--black {
-		height: 665px;
-		margin-bottom: 160px;
-	}
-
 	.bg-color--green {
 		height: 665px;
 		margin-bottom: 160px;
@@ -234,7 +229,7 @@
 	}
 
 	.tools__cards-column {
-		flex-direction: column;
+		justify-content: center;
 	}
 
 	.tools__card {
@@ -475,11 +470,6 @@
 		margin-bottom: 72px;
 	}
 
-	.bg-color--black {
-		height: 737px;
-		margin-bottom: 72px;
-	}
-
 	.bg-color--green {
 		height: 737px;
 		margin-bottom: 72px;
@@ -567,6 +557,7 @@
 	.tools__cards-column {
 		width: 100%;
 		gap: 32px;
+		flex-direction: column;
 	}
 
 	.tools__card {
