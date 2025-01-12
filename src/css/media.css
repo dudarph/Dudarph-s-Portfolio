@@ -24,7 +24,7 @@
 	}
 
 	.wrapper-second {
-		max-width: 976px;
+		max-width: 1104px;
 	}
 
 	.wrapper-third {
@@ -128,10 +128,7 @@
 		line-height: 72px;
 	}
 
-	.bg-color--gray {
-		margin-bottom: 160px;
-		height: 665px;
-	}
+
 
 	.bg-color--orange {
 		height: 665px;
@@ -156,6 +153,11 @@
 	.bg-color--green {
 		height: 665px;
 		margin-bottom: 160px;
+	}
+
+	.bg-color--purple {
+		margin-bottom: 160px;
+		height: 665px;
 	}
 
 	.instance {
@@ -188,7 +190,7 @@
 
 	.instance__img {
 		margin-top: 80px;
-		width: 567px;
+		max-width: 567px;
 		height: 665px;
 	}
 
@@ -460,10 +462,7 @@
 		margin-bottom: 72px;
 	}
 
-	.bg-color--gray {
-		height: 737px;
-		margin-bottom: 72px;
-	}
+
 
 	.bg-color--blue {
 		height: 737px;
@@ -481,6 +480,11 @@
 	}
 
 	.bg-color--green {
+		height: 737px;
+		margin-bottom: 72px;
+	}
+
+	.bg-color--purple {
 		height: 737px;
 		margin-bottom: 72px;
 	}
