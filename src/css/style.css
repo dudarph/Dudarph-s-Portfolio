@@ -204,6 +204,87 @@ img {
   transform: scale(1.1);
 }
 
+.pop-up {
+  width: 100%;
+  height: 100vh;
+
+  background: rgba(25, 22, 23, 0.5);
+  visibility: hidden;
+
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  left: 0;
+}
+
+.pop-up.visible {
+  visibility: visible;
+}
+
+.pop-up__wrapper {
+  max-width: 800px;
+  padding: 80px 112px;
+
+  background: #fff;
+  border-radius: 8px;
+
+  position: fixed;
+  z-index: 999;
+  top: 28%;
+  left: 28%;
+}
+
+.pop-up__title {
+  margin-bottom: 96px;
+  max-width: 576px;
+
+  color: #191617;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.pop-up__buttons {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.pop-up__link {
+  display: flex;
+
+  text-decoration: none;
+  color: rgba(25, 22, 23);
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 32px;
+
+  transition: transform 0.3s ease;
+}
+
+.pop-up__link:hover,
+.pop-up__link:active {
+  transform: scale(1.1);
+}
+
+.pop-up__link:first-child {
+  padding: 24px 48px;
+
+  background-color: rgba(25, 22, 23, 0.1);
+  border-radius: 8px;
+}
+
+.pop-up__link:last-child {
+  padding: 24px 48px;
+
+  color: #fff;
+
+  background-color: #FF0530;
+  border-radius: 8px;
+}
+
 .burger {
   display: none;
   width: 48px;
@@ -276,7 +357,7 @@ img {
   font-size: 1.7rem;
   line-height: 48px;
 
-  transition: .2s linear;
+  transition: .2s ease;
 }
 
 .burger-menu__link:active {
@@ -295,6 +376,12 @@ img {
 .burger-menu__additional-img {
   width: 48px;
   height: 48px;
+
+  transition: .3s ease;
+}
+
+.burger-menu__additional-img:active {
+  transform: scale(1.1);
 }
 
 .horizontal-line {
@@ -577,7 +664,7 @@ img {
 }
 
 .instance__text {
-  margin-top: 309px;
+  margin-top: 293px;
   display: flex;
   flex-direction: column;
   width: 640px;
@@ -624,6 +711,7 @@ img {
 
   box-shadow: 0px 2.77px 2.21px 0px rgba(38, 31, 34, 0.02), 0px 6.65px 5.32px 0px rgba(38, 31, 34, 0.03), 0px 12.52px 10.02px 0px rgba(38, 31, 34, 0.04), 0px 22.34px 17.87px 0px rgba(38, 31, 34, 0.04), 0px 41.78px 33.42px 0px rgba(38, 31, 34, 0.05), 0px 100px 80px 0px rgba(38, 31, 34, 0.07);
   background: rgba(25, 22, 23, 0.5);
+  border-radius: 8px;
 }
 
 .instance__img--1 {
@@ -852,6 +940,11 @@ img {
 .details[open] {
   border-bottom: none;
 }
+
+.details[open] .summary {
+  color: #191617;
+}
+
 
 .summary {
   display: flex;

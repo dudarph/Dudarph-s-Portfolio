@@ -521,6 +521,9 @@
 
 	.instance__link {
 		padding: 24px 32px;
+		justify-content: center;
+		max-width: 100%;
+		width: 472px;
 	}
 
 	.frontend {
